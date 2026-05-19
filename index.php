@@ -18,10 +18,12 @@ include ("Sign.php")?>
             <p>Login to your account</p>
         </div>
             <div class="info">
-            <input class="usr" id="usr" type="text" placeholder="Email" name="uname" required>
-            <input class="usr" id="psw" type="password" placeholder="Enter Password" name="password" required>
+            <form class="form" method="post">
+                <input class="usr" id="usr" type="text" name="uname" placeholder="Email" required>
+                <input class="usr" id="psw" type="password" name="password" placeholder="Enter Password" required>
 
-            <button onclick="myMessage()" name="button1" class="SubButton">Login or Sign up </button>
+                <button type="submit" name="button1" class="SubButton">Sign in or Login</button>
+            </form>
         </div>
     </div>
 </div>   
