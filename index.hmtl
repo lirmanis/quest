@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>a
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<?php
+include ("Sign.php")?>
+
+<div class="container">
+    <h1> Listless</h1>
+    <div class ="loginbox">
+        <div class="logintxt">
+            <p>Login to your account</p>
+        </div>
+            <div class="info">
+            <input class="usr" id="usr" type="text" placeholder="Email" name="uname" required>
+            <input class="usr" id="psw" type="password" placeholder="Enter Password" name="password" required>
+
+            <button onclick="myMessage()" name="button1" class="SubButton">Login or Sign up </button>
+        </div>
+    </div>
+</div>   
+
+</body>
+</html>
