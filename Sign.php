@@ -1,7 +1,11 @@
 <?php
+if (isset($_POST['button1'])) {
+    $username = $_POST['uname'];
+    $password = $_POST['password'];
 
-function myMessage() {
-    echo "Hello world!";
+    echo "<script>";
+    echo "console.log('Username: " . $username . "');";
+    echo "console.log('Password: " . $password . "');";
+    echo "</script>";
 }
-
 ?>
